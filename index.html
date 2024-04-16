@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Muhammad Khoirudin" />
+    <!--==========[ Boxicons V2.1.4 @Import_Plugins ]==========-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--==========[ Google Fontstyle @Import_Plugins ]==========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--==========[ Main Custom Stylesheet Variable ]==========-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Muhammad Khoirudin Porfolio</title>
+  </head>
+  <body>
+    <!--==========[ This Part For "Header" ]==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Muhammad Khoirudin</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__Link active-link">
+                <i class="bx bx-home nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__Link">
+                <i class="bx bx-user nav__icon"></i>Profile
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__Link">
+                <i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__Link">
+                <i class="bx bx-receipt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__Link">
+                <i class="bx bx-briefcase nav__icon"></i>Activity
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#certificates" class="nav__Link">
+                <i class="bx bx-award nav__icon"></i>Certificates
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+    <!--==========[ This Part For "Content"]==========-->
+    <main class="l-main bd-container">
+      <!--//@Note : "All element with this div, will be generate to document type .pdf"//-->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--==========[ This Part For "Home" ]==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="assets/img/profil.png" alt="" class="home__img" />
+                <h1 class="home__title">MUHAMMAD KHOIRUDIN</h1>
+                <h3 class="home_profession">Junior Front-End Web Developer</h3>
+                <div>
+                  <a
+                    href="assets/pdf/"
+                    target="_blank"
+                    class="home__button-movil"
+                    download
+                    >DOWNLOAD</a
+                  >
+                </div>
+              </div>
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i> Tanjung Pasir,
+                  Kec.TelukNaga, Kab.Tangerang - Banten 1510
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i>
+                  muhammadkhoirudin364@gmail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i> +62 857-7910-7869
+                </span>
+              </div>
+            </div>
+            <!--//@Note : "This is button for change light to darkness mode"//-->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+            <!--//@Note : "Button to generate and download the pdf. Available for desktop."//-->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+          <!--==========[ This part for "My Social" ]==========-->
+          <section class="social section">
+            <h2 class="section__title" id="social">SOCIAL</h2>
+            <div class="section__container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/muhammad-khoirudin-126196304/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin social__icon"></i>Muhammad Khoirudin
+              </a>
+              <a
+                href="https://github.com/github-mkhoirudin"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social__icon"></i>github-mkhoirudin
+              </a>
+              <a
+                href="https://www.instagram.com/muhammadkhoirudin.ig/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-instagram social__icon"></i
+                >muhammadkhoirudin.ig
+              </a>
+            </div>
+          </section>
+          <!--==========[ This part for "My Profile"]==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+            <p class="profile__description">
+              Saya Muhammad Khoirudin, lulusan (IPS) Program Pendidikan
+              Kesetaraan SMA/MA (Paket C) Desa Rawarengas. memiliki pengalaman
+              sebagai Staff Sekretariat Badan Usaha Milik Desa (BUMDes) Rantai
+              Mas Tanjung Pasir untuk melaksanakan fungsi pengelolaan
+              Administrasi Data serta Informat unit usaha yang dikelolah Badan
+              Usaha Milik Desa (BUMDes) Rantai Mas Tanjung Pasir. Saya memiliki
+              minat untuk berkarir dalam bidang Administrasi atau Web Developer
+              agar dapat berkembang dan mahir dalam mengoprasikan Visual Studio
+              Code dan Microsoft Office Tools.
+            </p>
+          </section>
+          <!--==========[ This part for "My Educations"]==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"> </span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">PROGRAM PAKET C</h3>
+                  <span class="education__studies"></span>
+                  <span class="education__year">2019-2020</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"> </span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">MTS DARUL MU'MININ</h3>
+                  <span class="education__studies"></span>
+                  <span class="education__year">2013-2014</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"> </span>
+                  <!--//@Note : "Add this element <span class="education__line"></span> for add more content"//-->
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">SDN NEGRI 1</h3>
+                  <span class="education__studies"></span>
+                  <span class="education__year">2009-2010</span>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="resume__right">
+          <!--==========[ This part for "My Experience" ]==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">EXPERIENCE</h2>
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    PT ZHISHENG PACIFIC TRADING (MIXUE INDONESIA)
+                  </h3>
+                  <span class="experience__company">2023 s/d 2024</span>
+                  <p class="experience__description">
+                    Ritel Makanan & Minuman Food And beverage (F&B)
+                  </p>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    PT GEO DINAMIC STRUKTUR (GD)
+                  </h3>
+                  <span class="experience__company">2022 s/d 2023</span>
+                  <p class="experience__description">
+                    Sebagai Keamanan Alat Berat Excavator & Dozer
+                  </p>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!-- <span class="experience__line"></span> -->
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    BADAN USAHA MILIK DESA (BUMDES)
+                  </h3>
+                  <span class="experience__company">2022 s/d 2023</span>
+                  <p class="experience__description">
+                    Sebagai Sekretaris membantu Administrasi serta membantu
+                    pendokumentasian
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--==========[ This part for "My Certificates"]==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificate__container bd-grid">
+              <div class="certificate__content">
+                <h3 class="certification__title">
+                  Belajar Dasar Web Developer Pemula - Dicoding Indoneisa
+                  (November-Desember 2022)
+                </h3>
+              </div>
+            </div>
+          </section>
+          <!--==========[ This part for "My Reference"]==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>HTML
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>CSS
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Javascript
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>PHP
+                </li>
+              </ul>
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>MYSQL
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Microsoft Office
+                </li>
+              </ul>
+            </div>
+          </section>
+          <!--==========[ This part for "My Languages"]==========-->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="language__name">
+                  <span class="language__circle"></span> Indonesia
+                </li>
+                <li class="language__name">
+                  <span class="language__circle"></span> English
+                </li>
+              </ul>
+            </div>
+          </section>
+          <!--==========[This part for "My Interests"]==========-->
+          <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interest__name">Music</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bx-code interests__icon"></i>
+                <span class="interest__name">Coding</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interest__name">Read</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bx-joystick interests__icon"></i>
+                <span class="interest__name">Gaming</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <!--==========[ This part for "Scroll-Up Button"]==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop-icon"></i>
+    </a>
+    <!--==========[ Framework Converters "HTML2PDF" ]==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+    <!--==========[ Main Custom Brainly JS ]==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
